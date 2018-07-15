@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BackupDlg.cpp" />
+    <ClCompile Include="ConfigDlg.cpp" />
+    <ClCompile Include="ConfigManager.cpp" />
+    <ClCompile Include="ConnectModeDlg.cpp" />
+    <ClCompile Include="CruiseDlg.cpp" />
+    <ClCompile Include="DeviceDlg.cpp" />
+    <ClCompile Include="driveinfo.cpp" />
+    <ClCompile Include="FolderDialog.cpp" />
+    <ClCompile Include="FormatDlg.cpp" />
+    <ClCompile Include="LiveDlg.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="MiniDumper.cpp" />
+    <ClCompile Include="MsgDlg.cpp" />
+    <ClCompile Include="MyWaveOut.cpp" />
+    <ClCompile Include="PlayBackDlg.cpp" />
+    <ClCompile Include="SafeFile.cpp" />
+    <ClCompile Include="SDKDEMO.cpp" />
+    <ClCompile Include="SDKDEMODlg.cpp" />
+    <ClCompile Include="SearchDlg.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="StringConversion.cpp" />
+    <ClCompile Include="ToolDlg.cpp" />
+    <ClCompile Include="Grid\GridCell.cpp" />
+    <ClCompile Include="Grid\GridCellBase.cpp" />
+    <ClCompile Include="Grid\GridCtrl.cpp" />
+    <ClCompile Include="Grid\GridDropTarget.cpp" />
+    <ClCompile Include="Grid\InPlaceEdit.cpp" />
+    <ClCompile Include="Grid\TitleTip.cpp" />
+    <ClCompile Include="Grid\cell\GridCellCheck.cpp" />
+    <ClCompile Include="Grid\cell\GridCellCombo.cpp" />
+    <ClCompile Include="Grid\cell\GridCellDateTime.cpp" />
+    <ClCompile Include="Grid\cell\GridCellNumeric.cpp" />
+    <ClCompile Include="Grid\cell\GridURLCell.cpp" />
+    <ClCompile Include="tinyxml\tinystr.cpp" />
+    <ClCompile Include="tinyxml\tinyxml.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackupDlg.h" />
+    <ClInclude Include="ConfigDlg.h" />
+    <ClInclude Include="ConfigHelpers.h" />
+    <ClInclude Include="ConfigManager.h" />
+    <ClInclude Include="ConnectModeDlg.h" />
+    <ClInclude Include="CruiseDlg.h" />
+    <ClInclude Include="DeviceDlg.h" />
+    <ClInclude Include="FolderDialog.h" />
+    <ClInclude Include="FormatDlg.h" />
+    <ClInclude Include="LiveDlg.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="MiniDumper.h" />
+    <ClInclude Include="MsgDlg.h" />
+    <ClInclude Include="PlayBackDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SafeFile.h" />
+    <ClInclude Include="SDKDEMO.h" />
+    <ClInclude Include="SDKDEMODlg.h" />
+    <ClInclude Include="SearchDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="strdef.h" />
+    <ClInclude Include="StringConversion.h" />
+    <ClInclude Include="ToolDlg.h" />
+    <ClInclude Include="driveinfo.h" />
+    <ClInclude Include="Grid\CellRange.h" />
+    <ClInclude Include="Grid\GridCell.h" />
+    <ClInclude Include="Grid\GridCellBase.h" />
+    <ClInclude Include="Grid\GridCtrl.h" />
+    <ClInclude Include="Grid\GridDropTarget.h" />
+    <ClInclude Include="Grid\InPlaceEdit.h" />
+    <ClInclude Include="Grid\MemDC.h" />
+    <ClInclude Include="Grid\TitleTip.h" />
+    <ClInclude Include="Grid\cell\GridCellCheck.h" />
+    <ClInclude Include="Grid\cell\GridCellCombo.h" />
+    <ClInclude Include="Grid\cell\GridCellDateTime.h" />
+    <ClInclude Include="Grid\cell\GridCellNumeric.h" />
+    <ClInclude Include="Grid\cell\GridURLCell.h" />
+    <ClInclude Include="tinyxml\tinystr.h" />
+    <ClInclude Include="tinyxml\tinyxml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SDKDEMO_EN.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap_p.bmp">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\bmp00003.bmp">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\bmp00004.bmp">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\bmp00005.bmp">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\bmp00006.bmp">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\bmp00007.bmp">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\SDKDEMO.ico">
+      <Filter>res</Filter>
+    </None>
+    <None Include="res\SDKDEMO.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{9613ee24-51a9-4d3c-b394-4b7fd3e857b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PROVISION.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\PROVISIONsmall.bmp">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp" />
+  </ItemGroup>
+</Project>
